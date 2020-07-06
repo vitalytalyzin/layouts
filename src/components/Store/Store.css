@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.products__wrapper {
+  flex: auto;
+  overflow: scroll;
+}

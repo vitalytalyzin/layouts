@@ -1,0 +1,33 @@
+.card__wrapper {
+  width: 300px;
+  padding: 24px;
+  background-color: #f5f5f5;
+  box-shadow: 2px 11px 18px 2px rgba(194,194,194,1);
+  text-align: center;
+}
+
+.product-info__title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.product-info__color {
+  font-size: 12px;
+}
+
+.product-info__img {
+  display: block;
+  width: 100%;
+}
+
+.product-info__price-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-info__price {
+  font-size: 20px;
+  color: tomato;
+}
