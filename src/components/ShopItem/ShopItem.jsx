@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './ShopItem.css';
+import AddToCartBtn from '../AddToCartBtn/AddToCartBtn';
 
 const ShopItem = ({ name, price, color, img }) => {
   return (
-    <div>
-      List of products
+    <div className="card-list__wrapper">
+      <img className="card-list__img" src={img} alt="Кроссовок" />
+      <div className="card-list__title">{name}</div>
+      <div className="card-list__color">{color}</div>
+      <div className="card-list__price">${price}</div>
+      <AddToCartBtn />
     </div>
   );
 };
